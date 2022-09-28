@@ -28,7 +28,7 @@ public class CompensationServiceImpl implements CompensationService {
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy");
 
     /**
-     * Write what this method does
+     * Insert Compensation
      *
      * @param id                  Employee ID
      * @param compensationRequest
@@ -54,6 +54,7 @@ public class CompensationServiceImpl implements CompensationService {
     }
 
     /**
+     * Read compensation
      * @param id Employee id
      * @return Compensation
      */
